@@ -1,4 +1,4 @@
-package abstractfactory.scrollbar;
+package abstractfactory.abstractproduct;
 
 public interface ScrollBar {
 

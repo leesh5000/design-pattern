@@ -1,9 +1,9 @@
 package abstractfactory;
 
-import abstractfactory.scrollbar.ScrollBar;
-import abstractfactory.textbox.Window;
-import abstractfactory.uifactory.AppleUIMaker;
-import abstractfactory.uifactory.UIMaker;
+import abstractfactory.abstractproduct.ScrollBar;
+import abstractfactory.abstractproduct.Window;
+import abstractfactory.concretefactory.AppleUIMaker;
+import abstractfactory.abstractfactory.UIMaker;
 
 public class Client {
 

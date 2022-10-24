@@ -1,6 +1,11 @@
 package factorymethod;
 
-public class Main {
+import factorymethod.concretecreator.ExcelFactory;
+import factorymethod.concretecreator.PdfFactory;
+import factorymethod.concreteproduct.Excel;
+import factorymethod.concreteproduct.Pdf;
+
+public class Client {
     public static void main(String[] args) {
         Pdf pdf = new PdfFactory().create();
         Excel excel = new ExcelFactory().create();

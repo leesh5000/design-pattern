@@ -1,4 +1,4 @@
-package factorymethod;
+package factorymethod.product;
 
 public interface Document {
 

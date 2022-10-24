@@ -1,4 +1,6 @@
-package factorymethod;
+package factorymethod.concreteproduct;
+
+import factorymethod.product.Document;
 
 public class Excel implements Document {
 
