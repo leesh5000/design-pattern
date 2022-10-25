@@ -3,9 +3,10 @@ package abstractfactory.concreteproduct;
 import abstractfactory.abstractproduct.ScrollBar;
 
 /** Concrete Product */
-public class WindowsScrollBar implements ScrollBar {
+public class MacOSScrollBar implements ScrollBar {
+
     @Override
     public void render() {
-        System.out.println("Windows Style ScrollBar rendered.");
+        System.out.println("MacOS Style ScrollBar rendered.");
     }
 }

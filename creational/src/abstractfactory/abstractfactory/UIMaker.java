@@ -1,12 +1,13 @@
 package abstractfactory.abstractfactory;
 
+import abstractfactory.abstractproduct.Button;
 import abstractfactory.abstractproduct.ScrollBar;
-import abstractfactory.abstractproduct.Window;
 
+/** Abstract Factory */
 public interface UIMaker {
 
     ScrollBar createScrollBar();
-    Window createWindow();
+    Button createButton();
 
 
 }

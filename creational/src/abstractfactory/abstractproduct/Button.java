@@ -1,7 +1,7 @@
 package abstractfactory.abstractproduct;
 
 /** Abstract Product */
-public interface ScrollBar {
+public interface Button {
 
     void render();
 
