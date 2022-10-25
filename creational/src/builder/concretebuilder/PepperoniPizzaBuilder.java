@@ -2,7 +2,7 @@ package builder.concretebuilder;
 
 import builder.builder.PizzaBuilder;
 
-/** ConcreteBuilder */
+/** ConcreteBuilder 2 */
 public class PepperoniPizzaBuilder extends PizzaBuilder {
 
     @Override
